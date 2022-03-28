@@ -56,10 +56,10 @@ def main():
         energy_star_rating = st.slider("Energy Star Rating: ", 1, 100, value=1, format="%d")
         facility_type = st.selectbox("Select Facility Type: ", options=options_facility)
         floor_area = st.text_input("Enter Floor Area", value="", max_chars=6)
-        year_built = st.slider("Energy Star Rating: ", 1600, 2015, value=1, format="%d")
+        year_built = st.slider("Year built: ", 1600, 2015, value=1600, format="%d")
         State_Factor = st.selectbox("Select State Code: ", options=options_state)
         building_class = st.selectbox("Select Building Type: ", options=options_building_class)
-        ELEVATION = st.slider("Elevation : ", 1, 2000, value=1, format="%d")
+        ELEVATION = st.text_input("Elevation", value="", max_chars=6)
         submit = st.form_submit_button("Predict")
 
 
