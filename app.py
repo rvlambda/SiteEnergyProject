@@ -48,7 +48,7 @@ options_state = ['State_1', 'State_2', 'State_4', 'State_6', 'State_8', 'State_1
 
 options_building_class = ['Commercial', 'Residential']
 
-st.markdown("<h1 style='text-align: center;'>ASite Energy Usage Intensity Prediction App 🚧</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>Site Energy Usage Intensity Prediction App 🚧</h1>", unsafe_allow_html=True)
 def main():
     with st.form('prediction_form'):
 
